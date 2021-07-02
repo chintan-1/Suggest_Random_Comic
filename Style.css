@@ -1,0 +1,53 @@
+body,html{
+    height: 100vh;
+    width: 100vw;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 500;
+}
+
+h1{
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+div{
+    width: 17em;
+    height: 30em;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+label{
+    margin-left: 20px;
+}
+
+.txtbox{
+    width: 15em;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(134, 133, 133);
+}
+
+.txtbox:focus{
+    outline: none;
+    border-color: #0d47a1;
+}
+
+.txtbox:valid{
+    border-color: green;
+}
+
+.button{
+    width: 15em;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.hidden{
+    display: none; 
+    color: red;
+}
